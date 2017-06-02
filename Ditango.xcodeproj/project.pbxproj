@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		3836FE9B1EDB59E000EF2396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836FE9A1EDB59E000EF2396 /* AppDelegate.swift */; };
-		3836FE9D1EDB59E000EF2396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836FE9C1EDB59E000EF2396 /* ViewController.swift */; };
-		3836FEA01EDB59E000EF2396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3836FE9E1EDB59E000EF2396 /* Main.storyboard */; };
+		3836FE9D1EDB59E000EF2396 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836FE9C1EDB59E000EF2396 /* MainVC.swift */; };
 		3836FEA21EDB59E000EF2396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3836FEA11EDB59E000EF2396 /* Assets.xcassets */; };
 		3836FEA51EDB59E000EF2396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3836FEA31EDB59E000EF2396 /* LaunchScreen.storyboard */; };
+		38C57A2C1EE100850074A92D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A2B1EE100850074A92D /* LoginVC.swift */; };
+		38C57A2E1EE105AD0074A92D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A2D1EE105AD0074A92D /* Login.swift */; };
+		38C57A301EE113910074A92D /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A2F1EE113910074A92D /* Usuario.swift */; };
+		38C57A321EE122300074A92D /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A311EE122300074A92D /* CadastroVC.swift */; };
+		38C57A351EE17A530074A92D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38C57A331EE17A530074A92D /* Main.storyboard */; };
+		38C57A371EE17F580074A92D /* Cadastro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A361EE17F580074A92D /* Cadastro.swift */; };
+		38CB523D1EE1C985002EC950 /* BibliotecaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB523C1EE1C985002EC950 /* BibliotecaVC.swift */; };
+		38CB523F1EE1CE8F002EC950 /* ConverteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB523E1EE1CE8F002EC950 /* ConverteVC.swift */; };
+		38CB52411EE1CFA9002EC950 /* UsuarioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB52401EE1CFA9002EC950 /* UsuarioVC.swift */; };
+		38CB52431EE1CFB6002EC950 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB52421EE1CFB6002EC950 /* PlayerVC.swift */; };
+		D699108DD4DFC95E35B08878 /* Pods_Ditango.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489880414FF72FA7C57C234 /* Pods_Ditango.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3836FE971EDB59E000EF2396 /* Ditango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ditango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3836FE9A1EDB59E000EF2396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3836FE9C1EDB59E000EF2396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3836FE9F1EDB59E000EF2396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3836FE9C1EDB59E000EF2396 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		3836FEA11EDB59E000EF2396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3836FEA41EDB59E000EF2396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3836FEA61EDB59E000EF2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C57A2B1EE100850074A92D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		38C57A2D1EE105AD0074A92D /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		38C57A2F1EE113910074A92D /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		38C57A311EE122300074A92D /* CadastroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
+		38C57A341EE17A530074A92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38C57A361EE17F580074A92D /* Cadastro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadastro.swift; sourceTree = "<group>"; };
+		38CB523C1EE1C985002EC950 /* BibliotecaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibliotecaVC.swift; sourceTree = "<group>"; };
+		38CB523E1EE1CE8F002EC950 /* ConverteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverteVC.swift; sourceTree = "<group>"; };
+		38CB52401EE1CFA9002EC950 /* UsuarioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioVC.swift; sourceTree = "<group>"; };
+		38CB52421EE1CFB6002EC950 /* PlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		4489880414FF72FA7C57C234 /* Pods_Ditango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ditango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF0687310B55B7982F4AFE6 /* Pods-Ditango.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ditango.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ditango/Pods-Ditango.release.xcconfig"; sourceTree = "<group>"; };
+		C3F90684C7FF8617157637A7 /* Pods-Ditango.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ditango.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ditango/Pods-Ditango.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D699108DD4DFC95E35B08878 /* Pods_Ditango.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +63,8 @@
 			children = (
 				3836FE991EDB59E000EF2396 /* Ditango */,
 				3836FE981EDB59E000EF2396 /* Products */,
+				C091A9339F6970D19276FFED /* Pods */,
+				4BBF9ABA1E2822B0D9EF06A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,64 @@
 		3836FE991EDB59E000EF2396 /* Ditango */ = {
 			isa = PBXGroup;
 			children = (
-				3836FE9A1EDB59E000EF2396 /* AppDelegate.swift */,
-				3836FE9C1EDB59E000EF2396 /* ViewController.swift */,
-				3836FE9E1EDB59E000EF2396 /* Main.storyboard */,
-				3836FEA11EDB59E000EF2396 /* Assets.xcassets */,
+				38C57A2A1EE100340074A92D /* Model */,
+				38C57A291EE1002D0074A92D /* View */,
+				38C57A281EE100280074A92D /* Controller */,
+				38C57A331EE17A530074A92D /* Main.storyboard */,
 				3836FEA31EDB59E000EF2396 /* LaunchScreen.storyboard */,
+				3836FEA11EDB59E000EF2396 /* Assets.xcassets */,
+				3836FE9A1EDB59E000EF2396 /* AppDelegate.swift */,
 				3836FEA61EDB59E000EF2396 /* Info.plist */,
 			);
 			path = Ditango;
+			sourceTree = "<group>";
+		};
+		38C57A281EE100280074A92D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3836FE9C1EDB59E000EF2396 /* MainVC.swift */,
+				38C57A2B1EE100850074A92D /* LoginVC.swift */,
+				38C57A311EE122300074A92D /* CadastroVC.swift */,
+				38CB523C1EE1C985002EC950 /* BibliotecaVC.swift */,
+				38CB523E1EE1CE8F002EC950 /* ConverteVC.swift */,
+				38CB52401EE1CFA9002EC950 /* UsuarioVC.swift */,
+				38CB52421EE1CFB6002EC950 /* PlayerVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		38C57A291EE1002D0074A92D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		38C57A2A1EE100340074A92D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38C57A2D1EE105AD0074A92D /* Login.swift */,
+				38C57A2F1EE113910074A92D /* Usuario.swift */,
+				38C57A361EE17F580074A92D /* Cadastro.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4BBF9ABA1E2822B0D9EF06A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4489880414FF72FA7C57C234 /* Pods_Ditango.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C091A9339F6970D19276FFED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3F90684C7FF8617157637A7 /* Pods-Ditango.debug.xcconfig */,
+				AFF0687310B55B7982F4AFE6 /* Pods-Ditango.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3836FEA91EDB59E000EF2396 /* Build configuration list for PBXNativeTarget "Ditango" */;
 			buildPhases = (
+				06E2BD8F116B6B896EBC92D0 /* [CP] Check Pods Manifest.lock */,
 				3836FE931EDB59E000EF2396 /* Sources */,
 				3836FE941EDB59E000EF2396 /* Frameworks */,
 				3836FE951EDB59E000EF2396 /* Resources */,
+				735DFB73CCDB7F833EC4215C /* [CP] Embed Pods Frameworks */,
+				E290E39AB997997A05A76F30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,41 +202,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C57A351EE17A530074A92D /* Main.storyboard in Resources */,
 				3836FEA51EDB59E000EF2396 /* LaunchScreen.storyboard in Resources */,
 				3836FEA21EDB59E000EF2396 /* Assets.xcassets in Resources */,
-				3836FEA01EDB59E000EF2396 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E2BD8F116B6B896EBC92D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		735DFB73CCDB7F833EC4215C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ditango/Pods-Ditango-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E290E39AB997997A05A76F30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ditango/Pods-Ditango-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3836FE931EDB59E000EF2396 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3836FE9D1EDB59E000EF2396 /* ViewController.swift in Sources */,
+				38C57A371EE17F580074A92D /* Cadastro.swift in Sources */,
+				3836FE9D1EDB59E000EF2396 /* MainVC.swift in Sources */,
+				38C57A321EE122300074A92D /* CadastroVC.swift in Sources */,
 				3836FE9B1EDB59E000EF2396 /* AppDelegate.swift in Sources */,
+				38CB523D1EE1C985002EC950 /* BibliotecaVC.swift in Sources */,
+				38C57A2C1EE100850074A92D /* LoginVC.swift in Sources */,
+				38CB523F1EE1CE8F002EC950 /* ConverteVC.swift in Sources */,
+				38CB52411EE1CFA9002EC950 /* UsuarioVC.swift in Sources */,
+				38C57A301EE113910074A92D /* Usuario.swift in Sources */,
+				38C57A2E1EE105AD0074A92D /* Login.swift in Sources */,
+				38CB52431EE1CFB6002EC950 /* PlayerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3836FE9E1EDB59E000EF2396 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3836FE9F1EDB59E000EF2396 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3836FEA31EDB59E000EF2396 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3836FEA41EDB59E000EF2396 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		38C57A331EE17A530074A92D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C57A341EE17A530074A92D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,6 +396,7 @@
 		};
 		3836FEAA1EDB59E000EF2396 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F90684C7FF8617157637A7 /* Pods-Ditango.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 97ZVCXEP4L;
@@ -269,11 +405,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = felipeferreirasilva.com.br.Ditango;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3836FEAB1EDB59E000EF2396 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF0687310B55B7982F4AFE6 /* Pods-Ditango.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 97ZVCXEP4L;
@@ -282,6 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = felipeferreirasilva.com.br.Ditango;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -304,6 +443,7 @@
 				3836FEAB1EDB59E000EF2396 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
