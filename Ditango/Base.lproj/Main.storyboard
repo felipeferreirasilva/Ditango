@@ -128,7 +128,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="u7x-sM-aB1" userLabel="Formulario">
-                                <rect key="frame" x="26" y="171" width="268" height="100"/>
+                                <rect key="frame" x="26" y="181" width="268" height="100"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="q1g-z8-V5h" userLabel="email_stackView">
                                         <rect key="frame" x="0.0" y="0.0" width="268" height="40"/>
@@ -198,7 +198,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Uh9-ja-A1Y">
-                                <rect key="frame" x="26" y="291" width="268" height="63"/>
+                                <rect key="frame" x="26" y="301" width="268" height="63"/>
                                 <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="756-GH-5Im"/>
@@ -221,7 +221,7 @@
                             <constraint firstItem="Uh9-ja-A1Y" firstAttribute="top" secondItem="u7x-sM-aB1" secondAttribute="bottom" constant="20" id="aSR-Si-Xwh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="u7x-sM-aB1" secondAttribute="trailing" constant="10" id="dOE-V8-SMr"/>
                             <constraint firstItem="Uh9-ja-A1Y" firstAttribute="leading" secondItem="mSV-QF-zdn" secondAttribute="leadingMargin" constant="10" id="hBD-i0-eeX"/>
-                            <constraint firstItem="u7x-sM-aB1" firstAttribute="top" secondItem="zu6-8Y-Hbq" secondAttribute="bottom" constant="20" id="jFG-bF-G23"/>
+                            <constraint firstItem="u7x-sM-aB1" firstAttribute="top" secondItem="zu6-8Y-Hbq" secondAttribute="bottom" constant="30" id="jFG-bF-G23"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Uh9-ja-A1Y" secondAttribute="trailing" constant="10" id="kix-sU-dfG"/>
                             <constraint firstItem="zu6-8Y-Hbq" firstAttribute="top" secondItem="mSV-QF-zdn" secondAttribute="top" id="nw0-RM-iqX"/>
                             <constraint firstAttribute="trailing" secondItem="zu6-8Y-Hbq" secondAttribute="trailing" id="u5K-X9-Azs"/>
@@ -236,7 +236,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zpf-Gb-Vhs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="665.21739130434787" y="35.869565217391305"/>
+            <point key="canvasLocation" x="663.75" y="34.859154929577464"/>
         </scene>
         <!--CadastroVC-->
         <scene sceneID="7mQ-yu-pfm">
@@ -265,7 +265,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="qWA-GH-85B" userLabel="Formulario">
-                                <rect key="frame" x="26" y="171" width="268" height="242"/>
+                                <rect key="frame" x="26" y="181" width="268" height="242"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="IrU-ZM-Oi0" userLabel="nome_stackView">
                                         <rect key="frame" x="0.0" y="0.0" width="268" height="24"/>
@@ -401,11 +401,10 @@
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KNN-Cd-PsP">
-                                <rect key="frame" x="26" y="433" width="268" height="54"/>
+                                <rect key="frame" x="26" y="443" width="268" height="54"/>
                                 <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="0OY-tM-Ybm"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="54" id="1b7-7B-K6m"/>
                                 </constraints>
                                 <color key="textColor" red="1" green="0.31180984249999999" blue="0.22416542210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -422,24 +421,17 @@
                             <constraint firstItem="KNN-Cd-PsP" firstAttribute="leading" secondItem="ahH-d0-dYH" secondAttribute="leadingMargin" constant="10" id="ZQt-E7-1Oe"/>
                             <constraint firstItem="Ftq-Bf-Zrf" firstAttribute="centerX" secondItem="ahH-d0-dYH" secondAttribute="centerX" id="a0W-qu-mSV"/>
                             <constraint firstItem="KNN-Cd-PsP" firstAttribute="top" secondItem="qWA-GH-85B" secondAttribute="bottom" constant="20" id="blu-Ed-e9z"/>
-                            <constraint firstItem="KNN-Cd-PsP" firstAttribute="leading" secondItem="ahH-d0-dYH" secondAttribute="leadingMargin" constant="10" id="cQP-2P-nYc"/>
-                            <constraint firstItem="qWA-GH-85B" firstAttribute="top" secondItem="7Jv-Ui-jIt" secondAttribute="bottom" constant="20" id="ep2-G8-7iL"/>
+                            <constraint firstItem="qWA-GH-85B" firstAttribute="top" secondItem="7Jv-Ui-jIt" secondAttribute="bottom" constant="30" id="ep2-G8-7iL"/>
                             <constraint firstItem="uh1-CR-eAh" firstAttribute="top" secondItem="8Ta-Oa-u7Z" secondAttribute="bottom" constant="-1" id="jgO-6J-cdv"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="KNN-Cd-PsP" secondAttribute="trailing" constant="10" id="kC8-gY-kYL"/>
                             <constraint firstItem="Ftq-Bf-Zrf" firstAttribute="centerY" secondItem="ahH-d0-dYH" secondAttribute="centerY" id="lPv-th-ODm"/>
                             <constraint firstAttribute="trailing" secondItem="7Jv-Ui-jIt" secondAttribute="trailing" id="lsO-M4-2Rk"/>
                             <constraint firstItem="7Jv-Ui-jIt" firstAttribute="leading" secondItem="ahH-d0-dYH" secondAttribute="leading" id="vFB-B2-Ziz"/>
                             <constraint firstItem="7Jv-Ui-jIt" firstAttribute="top" secondItem="ahH-d0-dYH" secondAttribute="top" id="wkP-gt-Fpn"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="Ftq-Bf-Zrf"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="cadastrarBtn" destination="8Ta-Oa-u7Z" id="UYL-OX-kRm"/>
-                        <outlet property="emailConfirmTxtField" destination="Ftq-Bf-Zrf" id="yJB-dS-9YT"/>
+                        <outlet property="confirmaEmailTxtField" destination="cM9-OJ-1t3" id="Vac-bR-fUE"/>
                         <outlet property="emailTxtField" destination="7Rg-wC-wTf" id="Lba-CF-Zl9"/>
                         <outlet property="formularioSV" destination="qWA-GH-85B" id="X8Q-Dd-KFY"/>
                         <outlet property="idiomaLbl" destination="uo8-bY-7fQ" id="LSX-8c-VTg"/>
@@ -467,8 +459,18 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IuI-aO-Wwv">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usuario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8L-8C-H1I">
+                                        <rect key="frame" x="121" y="30" width="79" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.31180984249999999" blue="0.22416542210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="K8L-8C-H1I" firstAttribute="centerX" secondItem="IuI-aO-Wwv" secondAttribute="centerX" id="Yos-V6-dWP"/>
+                                    <constraint firstItem="K8L-8C-H1I" firstAttribute="centerY" secondItem="IuI-aO-Wwv" secondAttribute="centerY" id="lwh-1p-nHv"/>
                                     <constraint firstAttribute="height" constant="86" id="nDD-un-Dbg"/>
                                 </constraints>
                             </view>
@@ -506,7 +508,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1NK-ce-YNC" id="7IQ-AC-Nnq">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -514,8 +516,18 @@
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nMI-NL-z9V">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biblioteca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0L8-DN-g9b">
+                                        <rect key="frame" x="109.5" y="30" width="101" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.31180984249999999" blue="0.22416542210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="0L8-DN-g9b" firstAttribute="centerX" secondItem="nMI-NL-z9V" secondAttribute="centerX" id="8na-o7-BcE"/>
+                                    <constraint firstItem="0L8-DN-g9b" firstAttribute="centerY" secondItem="nMI-NL-z9V" secondAttribute="centerY" id="Hle-x0-vd4"/>
                                     <constraint firstAttribute="height" constant="86" id="hoS-s9-add"/>
                                 </constraints>
                             </view>
@@ -580,9 +592,19 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="txz-2E-20v">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTU-et-5lT">
+                                        <rect key="frame" x="129" y="29" width="63.5" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.31180984249999999" blue="0.22416542210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="86" id="GEM-Op-BEu"/>
+                                    <constraint firstItem="NTU-et-5lT" firstAttribute="centerY" secondItem="txz-2E-20v" secondAttribute="centerY" id="ZUY-WY-g53"/>
+                                    <constraint firstItem="NTU-et-5lT" firstAttribute="centerX" secondItem="txz-2E-20v" secondAttribute="centerX" id="jSe-RA-Xcd"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -613,9 +635,19 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vrZ-nZ-Rpa">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Converter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFH-UQ-n1y">
+                                        <rect key="frame" x="110" y="30" width="101" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.31180984249999999" blue="0.22416542210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="86" id="5gU-He-ifn"/>
+                                    <constraint firstItem="hFH-UQ-n1y" firstAttribute="centerX" secondItem="vrZ-nZ-Rpa" secondAttribute="centerX" id="EW4-B6-fhi"/>
+                                    <constraint firstItem="hFH-UQ-n1y" firstAttribute="centerY" secondItem="vrZ-nZ-Rpa" secondAttribute="centerY" id="T8O-mY-J0k"/>
                                 </constraints>
                             </view>
                         </subviews>

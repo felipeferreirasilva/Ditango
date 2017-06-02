@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ditango/CadastroVC.swift"
-            timestampString = "518126021.490864"
+            timestampString = "518129186.631454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -74,23 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ditango/CadastroVC.swift"
-            timestampString = "518126021.490864"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "cadastrarBtnPressed(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Ditango/CadastroVC.swift"
-            timestampString = "518126021.490864"
+            timestampString = "518129186.631454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
@@ -106,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ditango/CadastroVC.swift"
-            timestampString = "518126021.490864"
+            timestampString = "518129186.631454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -122,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ditango/CadastroVC.swift"
-            timestampString = "518126021.490864"
+            timestampString = "518129186.631454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -138,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ditango/CadastroVC.swift"
-            timestampString = "518126021.490864"
+            timestampString = "518129186.631454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -154,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ditango/CadastroVC.swift"
-            timestampString = "518126021.490864"
+            timestampString = "518129186.631454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "cadastrarBtnPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,11 +154,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ditango/CadastroVC.swift"
-            timestampString = "518126021.490864"
+            timestampString = "518129186.631454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "cadastrarBtnPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ditango/CadastroVC.swift"
+            timestampString = "518129186.631454"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "cadastrarBtnPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>

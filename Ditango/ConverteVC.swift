@@ -12,6 +12,5 @@ class ConverteVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Converte")
     }
 }

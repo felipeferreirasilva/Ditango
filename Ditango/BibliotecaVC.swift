@@ -21,9 +21,5 @@ class BibliotecaVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Biblioteca")
     }
-    
-    
-
 }

@@ -12,7 +12,7 @@ class CadastroVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
 
     @IBOutlet weak var nomeTxtField: UITextField!
     @IBOutlet weak var emailTxtField: UITextField!
-    @IBOutlet weak var emailConfirmTxtField: UITextField!
+    @IBOutlet weak var confirmaEmailTxtField: UITextField!
     @IBOutlet weak var senhaTxtField: UITextField!
     @IBOutlet weak var idiomaLbl: UITextField!
     @IBOutlet weak var idiomaPicker: UIPickerView!
@@ -43,6 +43,7 @@ class CadastroVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
         let cadastro = Cadastro()
         let username = nomeTxtField.text
         let email = emailTxtField.text
+        let confirmaEmail = confirmaEmailTxtField.text
         let password = senhaTxtField.text
         let contratoAceito = true
         var locale = "pt_BR"
@@ -50,8 +51,13 @@ class CadastroVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
             locale = "en_US"
         }
         
-        if(!(username?.isEmpty)! && !(email?.isEmpty)! && !(password?.isEmpty)!){
+        if(!(username?.isEmpty)! && !(email?.isEmpty)! && !(confirmaEmail?.isEmpty)! && !(password?.isEmpty)!){
             msgLbl.text = cadastro.cadastra(username: username!, email: email!, password: password!, contractAgreement: contratoAceito, locale: locale)
+            
+            nomeTxtField.text=""
+            emailTxtField.text=""
+            confirmaEmailTxtField.text=""
+            senhaTxtField.text=""
 
         }else{
             msgLbl.text = "Preencha todos os campos"
