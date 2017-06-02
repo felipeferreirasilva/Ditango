@@ -24,6 +24,7 @@ class CadastroVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
         idiomaPicker.dataSource = self
         idiomaPicker.delegate = self
         idiomaLbl.text = idiomas[0]
@@ -51,6 +52,7 @@ class CadastroVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate
         
         if(!(username?.isEmpty)! && !(email?.isEmpty)! && !(password?.isEmpty)!){
             msgLbl.text = cadastro.cadastra(username: username!, email: email!, password: password!, contractAgreement: contratoAceito, locale: locale)
+
         }else{
             msgLbl.text = "Preencha todos os campos"
         }

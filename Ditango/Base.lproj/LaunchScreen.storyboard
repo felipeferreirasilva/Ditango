@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,30 +18,30 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_branca" translatesAutoresizingMaskIntoConstraints="NO" id="leB-ab-MjC">
-                                <rect key="frame" x="52" y="226.5" width="206" height="105"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="0xv-0W-fZe">
+                                <rect key="frame" x="135" y="304" width="144" height="128"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="105" id="FjC-Xg-25Y"/>
-                                    <constraint firstAttribute="width" constant="206" id="oEB-Qi-tdZ"/>
+                                    <constraint firstAttribute="height" constant="128" id="GHh-Ex-TF9"/>
+                                    <constraint firstAttribute="width" constant="144" id="mdk-TW-nnG"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.31180984249999999" blue="0.22416542210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="leB-ab-MjC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-5" id="1iy-RZ-d5t"/>
-                            <constraint firstItem="leB-ab-MjC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-5" id="n5d-3c-8JR"/>
+                            <constraint firstItem="0xv-0W-fZe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fte-LU-6gc"/>
+                            <constraint firstItem="0xv-0W-fZe" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ois-9q-2I3"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
         </scene>
     </scenes>
     <resources>
-        <image name="logo_branca" width="1167" height="455"/>
+        <image name="icon" width="305" height="312"/>
     </resources>
 </document>
