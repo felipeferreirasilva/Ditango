@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3800AD3F1EE2094D00A2B693 /* RecuperaSenhaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800AD3E1EE2094D00A2B693 /* RecuperaSenhaVC.swift */; };
+		3800AD411EE20A5F00A2B693 /* RecuperaSenha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800AD401EE20A5F00A2B693 /* RecuperaSenha.swift */; };
 		3836FE9B1EDB59E000EF2396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836FE9A1EDB59E000EF2396 /* AppDelegate.swift */; };
 		3836FE9D1EDB59E000EF2396 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836FE9C1EDB59E000EF2396 /* MainVC.swift */; };
 		3836FEA21EDB59E000EF2396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3836FEA11EDB59E000EF2396 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3800AD3E1EE2094D00A2B693 /* RecuperaSenhaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecuperaSenhaVC.swift; sourceTree = "<group>"; };
+		3800AD401EE20A5F00A2B693 /* RecuperaSenha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecuperaSenha.swift; sourceTree = "<group>"; };
 		3836FE971EDB59E000EF2396 /* Ditango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ditango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3836FE9A1EDB59E000EF2396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3836FE9C1EDB59E000EF2396 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				38CB523E1EE1CE8F002EC950 /* ConverteVC.swift */,
 				38CB52401EE1CFA9002EC950 /* UsuarioVC.swift */,
 				38CB52421EE1CFB6002EC950 /* PlayerVC.swift */,
+				3800AD3E1EE2094D00A2B693 /* RecuperaSenhaVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -121,6 +126,7 @@
 				38C57A2D1EE105AD0074A92D /* Login.swift */,
 				38C57A2F1EE113910074A92D /* Usuario.swift */,
 				38C57A361EE17F580074A92D /* Cadastro.swift */,
+				3800AD401EE20A5F00A2B693 /* RecuperaSenha.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -266,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3800AD3F1EE2094D00A2B693 /* RecuperaSenhaVC.swift in Sources */,
 				38C57A371EE17F580074A92D /* Cadastro.swift in Sources */,
 				3836FE9D1EDB59E000EF2396 /* MainVC.swift in Sources */,
 				38C57A321EE122300074A92D /* CadastroVC.swift in Sources */,
+				3800AD411EE20A5F00A2B693 /* RecuperaSenha.swift in Sources */,
 				3836FE9B1EDB59E000EF2396 /* AppDelegate.swift in Sources */,
 				3847B8641EE1E72400DF3E4F /* Teclado.swift in Sources */,
 				38CB523D1EE1C985002EC950 /* BibliotecaVC.swift in Sources */,

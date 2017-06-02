@@ -32,3 +32,15 @@ extension CadastroVC{
         view.endEditing(true)
     }
 }
+
+extension RecuperaSenhaVC{
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(RecuperaSenhaVC.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
+}
