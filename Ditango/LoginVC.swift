@@ -23,7 +23,6 @@ class LoginVC: UIViewController {
     @IBAction func entrarBtnPresed(_ sender: Any) {
         usuario = login.login(username: usernameTxtField.text!, password: passwordTxtField.text!)
         if usuario.mensagem == "Successful operation."{
-            msgLbl.text = usuario.mensagem
             performSegue(withIdentifier: "BibliotecaVC", sender: usuario)
         }else{
             msgLbl.text = usuario.mensagem
