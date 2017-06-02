@@ -414,7 +414,7 @@
 				DEVELOPMENT_TEAM = 97ZVCXEP4L;
 				INFOPLIST_FILE = Ditango/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = felipeferreirasilva.com.br.Ditango;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ditango.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -429,7 +429,7 @@
 				DEVELOPMENT_TEAM = 97ZVCXEP4L;
 				INFOPLIST_FILE = Ditango/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = felipeferreirasilva.com.br.Ditango;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ditango.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
