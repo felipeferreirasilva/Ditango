@@ -23,8 +23,8 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func entrarBtnPresed(_ sender: Any) {
-//        usuario = login.login(username: usernameTxtField.text!, password: passwordTxtField.text!)
-        usuario = login.login(username: "felipeferreirasilva@gmail.com", password: "mudar123")
+        usuario = login.login(username: usernameTxtField.text!, password: passwordTxtField.text!)
+//        usuario = login.login(username: "felipeferreirasilva@gmail.com", password: "mudar123")
         if usuario.mensagem == "Successful operation."{
             performSegue(withIdentifier: "BibliotecaVC", sender: usuario)
         }else{
@@ -32,11 +32,19 @@ class LoginVC: UIViewController {
         }
         
     }
+    
+    
+    @IBAction func esqueceuSenhaBtnPressed(_ sender: Any) {
+        performSegue(withIdentifier: "SenhaVC", sender: nil)
+    }
         
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let tabVc = segue.destination as! UITabBarController
-        let bibliotecaVc = tabVc.viewControllers?.first as! BibliotecaVC
-        bibliotecaVc.usuario = (sender as? Usuario)!
+        if segue.identifier == "BibliotecaVC"{
+            let tabVc = segue.destination as! UITabBarController
+            let bibliotecaVc = tabVc.viewControllers?.first as! BibliotecaVC
+            bibliotecaVc.usuario = (sender as? Usuario)!
+        }
+        
     }
     
     @IBAction func voltarBtnPressed(_ sender: Any) {

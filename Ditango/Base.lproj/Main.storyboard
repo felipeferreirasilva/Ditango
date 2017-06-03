@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_blur" translatesAutoresizingMaskIntoConstraints="NO" id="ecU-cX-nih">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="ecU-cX-nih">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="508"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YG5-wG-8cp" userLabel="Botoes">
@@ -224,7 +224,7 @@
                                     <color key="titleColor" red="0.45836194330000002" green="0.6589767326" blue="0.95999999999999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PA3-3O-gs3" kind="show" identifier="" id="K1s-Dc-CkU"/>
+                                    <action selector="esqueceuSenhaBtnPressed:" destination="Zyo-pK-C8S" eventType="touchUpInside" id="uwL-GU-y2q"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -255,6 +255,7 @@
                         <outlet property="passwordTxtField" destination="k8z-xm-FBy" id="HWQ-fe-b2O"/>
                         <outlet property="usernameTxtField" destination="pbQ-5d-nLh" id="56k-U6-xsl"/>
                         <segue destination="iAI-cj-jl0" kind="show" identifier="BibliotecaVC" id="kD0-vi-mzt"/>
+                        <segue destination="PA3-3O-gs3" kind="show" identifier="SenhaVC" id="8EM-fH-9xD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zpf-Gb-Vhs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -802,7 +803,7 @@
     </scenes>
     <resources>
         <image name="back_btn" width="13" height="21"/>
-        <image name="bg_blur" width="2904" height="4716"/>
+        <image name="bg" width="960" height="640"/>
         <image name="down" width="25" height="25"/>
         <image name="email_icon" width="20" height="16"/>
         <image name="logo_alta" width="1163" height="450"/>
