@@ -35,27 +35,27 @@ class Login{
                     let userData = sessionContext?["user"] as? [String: Any]
                     
                     // Token
-                    usuario.token = (sessionContext?["token"] as? String)!
+                    _usuario.token = (sessionContext?["token"] as? String)!
                 
                     // Nome
-                    usuario.nome = (userData?["name"] as? String)!
+                    _usuario.nome = (userData?["name"] as? String)!
                 
                     // Email
-                    usuario.email = (userData?["email"] as? String)!
+                    _usuario.email = (userData?["email"] as? String)!
                 
                     // Id
-                    usuario.id = (userData?["id"] as? Int)!
+                    _usuario.id = (userData?["id"] as? Int)!
                 
                     // Locale
-                    usuario.locale = (userData?["locale"] as? String)!
+                    _usuario.locale = (userData?["locale"] as? String)!
                 
                     // Mensagem
-                    usuario.mensagem = (JSON["message"] as? String!)!
+                    _usuario.mensagem = (JSON["message"] as? String!)!
                 }else{
-                    usuario.mensagem = (JSON["message"] as? String!)!
+                    _usuario.mensagem = (JSON["message"] as? String!)!
                 }
         }
-        return usuario
+        return _usuario
     }
     
 }

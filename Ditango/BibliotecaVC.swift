@@ -9,7 +9,8 @@
 import UIKit
 
 class BibliotecaVC: UIViewController {
-    private var _usuario = Usuario()
+    private var _usuario: Usuario!
+    private var documentoList = DocumentoList()
     
     var usuario: Usuario{
         get{
@@ -21,5 +22,10 @@ class BibliotecaVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        documentoList.listaDocumento(token: _usuario.token, searchExpression: 0, size: 10, start: 0)
+      
+        
+        // CHAMAR DOCUMENTOLIST PASSANDO USUARIO.TOKEN 
+        // RECEBER OBJETO DE DOCUMENTOLIST E PREENCHER TABELA
     }
 }

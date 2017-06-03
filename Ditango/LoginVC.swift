@@ -15,6 +15,7 @@ class LoginVC: UIViewController {
     
     var usuario = Usuario()
     let login = Login()
+    let docList = DocumentoList()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,19 +23,23 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func entrarBtnPresed(_ sender: Any) {
-        usuario = login.login(username: usernameTxtField.text!, password: passwordTxtField.text!)
+//        usuario = login.login(username: usernameTxtField.text!, password: passwordTxtField.text!)
+        usuario = login.login(username: "felipeferreirasilva@gmail.com", password: "mudar123")
         if usuario.mensagem == "Successful operation."{
             performSegue(withIdentifier: "BibliotecaVC", sender: usuario)
         }else{
             msgLbl.text = usuario.mensagem
         }
+        
+    }
+        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let tabVc = segue.destination as! UITabBarController
+        let bibliotecaVc = tabVc.viewControllers?.first as! BibliotecaVC
+        bibliotecaVc.usuario = (sender as? Usuario)!
     }
     
     @IBAction func voltarBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
     }
 }

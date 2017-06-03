@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3800AD3F1EE2094D00A2B693 /* RecuperaSenhaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800AD3E1EE2094D00A2B693 /* RecuperaSenhaVC.swift */; };
-		3800AD411EE20A5F00A2B693 /* RecuperaSenha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800AD401EE20A5F00A2B693 /* RecuperaSenha.swift */; };
+		3800AD3F1EE2094D00A2B693 /* SenhaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800AD3E1EE2094D00A2B693 /* SenhaVC.swift */; };
+		3800AD411EE20A5F00A2B693 /* Senha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800AD401EE20A5F00A2B693 /* Senha.swift */; };
 		3836FE9B1EDB59E000EF2396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836FE9A1EDB59E000EF2396 /* AppDelegate.swift */; };
 		3836FE9D1EDB59E000EF2396 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3836FE9C1EDB59E000EF2396 /* MainVC.swift */; };
 		3836FEA21EDB59E000EF2396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3836FEA11EDB59E000EF2396 /* Assets.xcassets */; };
 		3836FEA51EDB59E000EF2396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3836FEA31EDB59E000EF2396 /* LaunchScreen.storyboard */; };
 		3847B8641EE1E72400DF3E4F /* Teclado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3847B8631EE1E72400DF3E4F /* Teclado.swift */; };
+		384FA05C1EE239B5006D8804 /* DocumentoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384FA05B1EE239B5006D8804 /* DocumentoList.swift */; };
+		384FA05E1EE23C32006D8804 /* Documento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384FA05D1EE23C32006D8804 /* Documento.swift */; };
 		38C57A2C1EE100850074A92D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A2B1EE100850074A92D /* LoginVC.swift */; };
 		38C57A2E1EE105AD0074A92D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A2D1EE105AD0074A92D /* Login.swift */; };
 		38C57A301EE113910074A92D /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A2F1EE113910074A92D /* Usuario.swift */; };
@@ -28,8 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3800AD3E1EE2094D00A2B693 /* RecuperaSenhaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecuperaSenhaVC.swift; sourceTree = "<group>"; };
-		3800AD401EE20A5F00A2B693 /* RecuperaSenha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecuperaSenha.swift; sourceTree = "<group>"; };
+		3800AD3E1EE2094D00A2B693 /* SenhaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SenhaVC.swift; sourceTree = "<group>"; };
+		3800AD401EE20A5F00A2B693 /* Senha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Senha.swift; sourceTree = "<group>"; };
 		3836FE971EDB59E000EF2396 /* Ditango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ditango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3836FE9A1EDB59E000EF2396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3836FE9C1EDB59E000EF2396 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -37,6 +39,8 @@
 		3836FEA41EDB59E000EF2396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3836FEA61EDB59E000EF2396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3847B8631EE1E72400DF3E4F /* Teclado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teclado.swift; sourceTree = "<group>"; };
+		384FA05B1EE239B5006D8804 /* DocumentoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentoList.swift; sourceTree = "<group>"; };
+		384FA05D1EE23C32006D8804 /* Documento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Documento.swift; sourceTree = "<group>"; };
 		38C57A2B1EE100850074A92D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		38C57A2D1EE105AD0074A92D /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		38C57A2F1EE113910074A92D /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
@@ -107,7 +111,7 @@
 				38CB523E1EE1CE8F002EC950 /* ConverteVC.swift */,
 				38CB52401EE1CFA9002EC950 /* UsuarioVC.swift */,
 				38CB52421EE1CFB6002EC950 /* PlayerVC.swift */,
-				3800AD3E1EE2094D00A2B693 /* RecuperaSenhaVC.swift */,
+				3800AD3E1EE2094D00A2B693 /* SenhaVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -126,7 +130,9 @@
 				38C57A2D1EE105AD0074A92D /* Login.swift */,
 				38C57A2F1EE113910074A92D /* Usuario.swift */,
 				38C57A361EE17F580074A92D /* Cadastro.swift */,
-				3800AD401EE20A5F00A2B693 /* RecuperaSenha.swift */,
+				3800AD401EE20A5F00A2B693 /* Senha.swift */,
+				384FA05B1EE239B5006D8804 /* DocumentoList.swift */,
+				384FA05D1EE23C32006D8804 /* Documento.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -272,13 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3800AD3F1EE2094D00A2B693 /* RecuperaSenhaVC.swift in Sources */,
+				384FA05C1EE239B5006D8804 /* DocumentoList.swift in Sources */,
+				3800AD3F1EE2094D00A2B693 /* SenhaVC.swift in Sources */,
 				38C57A371EE17F580074A92D /* Cadastro.swift in Sources */,
 				3836FE9D1EDB59E000EF2396 /* MainVC.swift in Sources */,
 				38C57A321EE122300074A92D /* CadastroVC.swift in Sources */,
-				3800AD411EE20A5F00A2B693 /* RecuperaSenha.swift in Sources */,
+				3800AD411EE20A5F00A2B693 /* Senha.swift in Sources */,
 				3836FE9B1EDB59E000EF2396 /* AppDelegate.swift in Sources */,
 				3847B8641EE1E72400DF3E4F /* Teclado.swift in Sources */,
+				384FA05E1EE23C32006D8804 /* Documento.swift in Sources */,
 				38CB523D1EE1C985002EC950 /* BibliotecaVC.swift in Sources */,
 				38C57A2C1EE100850074A92D /* LoginVC.swift in Sources */,
 				38CB523F1EE1CE8F002EC950 /* ConverteVC.swift in Sources */,

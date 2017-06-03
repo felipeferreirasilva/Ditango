@@ -224,7 +224,7 @@
                                     <color key="titleColor" red="0.45836194330000002" green="0.6589767326" blue="0.95999999999999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PA3-3O-gs3" kind="show" id="K1s-Dc-CkU"/>
+                                    <segue destination="PA3-3O-gs3" kind="show" identifier="" id="K1s-Dc-CkU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -468,10 +468,10 @@
             </objects>
             <point key="canvasLocation" x="1476" y="36"/>
         </scene>
-        <!--Recupera SenhaVC-->
+        <!--SenhaVC-->
         <scene sceneID="hhz-Pd-Hrs">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="PA3-3O-gs3" customClass="RecuperaSenhaVC" customModule="Ditango" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="PA3-3O-gs3" customClass="SenhaVC" customModule="Ditango" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="c18-sX-RS5"/>
                         <viewControllerLayoutGuide type="bottom" id="jrK-Ib-ucu"/>
@@ -578,7 +578,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ki7-YR-Jfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="661.875" y="750"/>
+            <point key="canvasLocation" x="664" y="782"/>
         </scene>
         <!--Usuario-->
         <scene sceneID="lpZ-Gs-Vf3">

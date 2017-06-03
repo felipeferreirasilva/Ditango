@@ -11,15 +11,15 @@ import Alamofire
 import Alamofire_Synchronous
 
 class Cadastro{
-    private var _msg: String!
+    private var _retorno: String!
     private var urlService = "http://web.ditango.com.br/service/public/register"
     private var token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJEaXRhbmdvX0FwcF9LZXkifQ.b87vjldAY1LWHUMtPCVdjyvah4nL_xL3b-F6VSWLDww"
     
-    var msg: String{
+    var retorno: String{
         get{
-            return _msg
+            return _retorno
         }set{
-            _msg = newValue
+            _retorno = newValue
         }
     }
     
@@ -31,8 +31,8 @@ class Cadastro{
         let response = Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers).responseJSON()
         
         if let JSON = response.result.value as? [String: Any]{
-            _msg = JSON["message"] as? String
+            _retorno = (JSON["message"] as? String)!
         }
-       return msg
+       return _retorno
     }
 }

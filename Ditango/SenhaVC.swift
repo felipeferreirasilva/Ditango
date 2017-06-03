@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RecuperaSenhaVC: UIViewController {
+class SenhaVC: UIViewController {
     @IBOutlet weak var emailTxtField: UITextField!
     @IBOutlet weak var msgTxtField: UITextView!
 
@@ -22,7 +22,7 @@ class RecuperaSenhaVC: UIViewController {
     }
     
     @IBAction func recuperarBtnPressed(_ sender: Any) {
-        let recuperaSenha = RecuperaSenha()
+        let recuperaSenha = Senha()
         let locale = "pt_BR"
         msgTxtField.text = recuperaSenha.recuperaSenha(email: emailTxtField.text!, locale: locale)
         emailTxtField.text=""
