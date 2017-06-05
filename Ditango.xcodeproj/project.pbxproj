@@ -26,6 +26,7 @@
 		38CB523F1EE1CE8F002EC950 /* ConverteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB523E1EE1CE8F002EC950 /* ConverteVC.swift */; };
 		38CB52411EE1CFA9002EC950 /* UsuarioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB52401EE1CFA9002EC950 /* UsuarioVC.swift */; };
 		38CB52431EE1CFB6002EC950 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB52421EE1CFB6002EC950 /* PlayerVC.swift */; };
+		38F4D3A81EE57DD4006AA01D /* DocumentoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4D3A71EE57DD4006AA01D /* DocumentoCell.swift */; };
 		D699108DD4DFC95E35B08878 /* Pods_Ditango.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4489880414FF72FA7C57C234 /* Pods_Ditango.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		38CB523E1EE1CE8F002EC950 /* ConverteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverteVC.swift; sourceTree = "<group>"; };
 		38CB52401EE1CFA9002EC950 /* UsuarioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioVC.swift; sourceTree = "<group>"; };
 		38CB52421EE1CFB6002EC950 /* PlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		38F4D3A71EE57DD4006AA01D /* DocumentoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentoCell.swift; sourceTree = "<group>"; };
 		4489880414FF72FA7C57C234 /* Pods_Ditango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ditango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF0687310B55B7982F4AFE6 /* Pods-Ditango.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ditango.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ditango/Pods-Ditango.release.xcconfig"; sourceTree = "<group>"; };
 		C3F90684C7FF8617157637A7 /* Pods-Ditango.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ditango.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ditango/Pods-Ditango.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				3847B8631EE1E72400DF3E4F /* Teclado.swift */,
+				38F4D3A71EE57DD4006AA01D /* DocumentoCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				3847B8641EE1E72400DF3E4F /* Teclado.swift in Sources */,
 				384FA05E1EE23C32006D8804 /* Documento.swift in Sources */,
 				38CB523D1EE1C985002EC950 /* BibliotecaVC.swift in Sources */,
+				38F4D3A81EE57DD4006AA01D /* DocumentoCell.swift in Sources */,
 				38C57A2C1EE100850074A92D /* LoginVC.swift in Sources */,
 				38CB523F1EE1CE8F002EC950 /* ConverteVC.swift in Sources */,
 				38CB52411EE1CFA9002EC950 /* UsuarioVC.swift in Sources */,

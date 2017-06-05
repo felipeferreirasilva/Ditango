@@ -8,9 +8,11 @@
 
 import UIKit
 
-class BibliotecaVC: UIViewController {
+class BibliotecaVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    @IBOutlet weak var docTable: UITableView!
     private var _usuario: Usuario!
     private var documentoList = DocumentoList()
+    private var documento = [Documento]()
     
     var usuario: Usuario{
         get{
@@ -22,10 +24,26 @@ class BibliotecaVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        documentoList.listaDocumento(token: _usuario.token, searchExpression: 0, size: 10, start: 0)
-      
-        
-        // CHAMAR DOCUMENTOLIST PASSANDO USUARIO.TOKEN 
-        // RECEBER OBJETO DE DOCUMENTOLIST E PREENCHER TABELA
+        docTable.dataSource = self
+        docTable.delegate = self
+        documento = documentoList.listaDocumento(token: _usuario.token, searchExpression: 0, size: 10, start: 0)
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = docTable.dequeueReusableCell(withIdentifier: "DocumentoCell", for: indexPath) as? DocumentoCell {
+            let docTitulo = documento[indexPath.row].nome.uppercased()
+            cell.updateUI(nomeDocumento: docTitulo)
+            return cell
+        }else{
+            return UITableViewCell()
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return documento.count
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row)
     }
 }

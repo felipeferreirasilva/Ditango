@@ -11,15 +11,15 @@ import Alamofire
 import Alamofire_Synchronous
 
 class DocumentoList{
-    private var _documento = [Documento]()
+    private var _documentos = [Documento]()
     private var _msg: String!
     private var urlService = "http://web.ditango.com.br/service/document/search"
     
-    var documento: [Documento]{
+    var documentos: [Documento]{
         get{
-            return _documento
+            return _documentos
         }set{
-            _documento = newValue
+            _documentos = newValue
         }
     }
     
@@ -31,7 +31,7 @@ class DocumentoList{
         }
     }
 
-    func listaDocumento(token: String, searchExpression: Int, size: Int, start: Int){
+    func listaDocumento(token: String, searchExpression: Int, size: Int, start: Int) -> [Documento]{
         let parameters: Parameters = ["searchExpression": searchExpression, "size": size, "start": start]
         let headers: HTTPHeaders = ["authorization": token]
         let url = urlService
@@ -40,13 +40,15 @@ class DocumentoList{
             let docsArray = JSON as! [[String: Any]]
             
             for i in 0..<docsArray.count {
-                print(docsArray[i]["name"]!)
+                let _documento = Documento()
+                _documento.nome = docsArray[i]["name"]! as! String
+                _documentos.append(_documento)
             }
-            
-
            
             // ALIMENTAR OBJETO _DOCUMENTO
         }
-        // RETORNAR _DOCUMENTO
+         return _documentos
     }
+    
+    
 }
