@@ -1,5 +1,5 @@
 //
-//  DocumentoCell.swift
+//  AudioCell.swift
 //  Ditango
 //
 //  Created by Felipe Silva on 05/06/17.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class DocumentoCell: UITableViewCell {
-    @IBOutlet weak var tituloDocLbl: UILabel!
-
+class AudioCell: UITableViewCell {
+    @IBOutlet weak var audioTituloLbl: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     
-    func updateUI(nomeDocumento: String){
-        tituloDocLbl.text = nomeDocumento
+    func updateUI(nomeAudio: String){
+        audioTituloLbl.text = nomeAudio
     }
 }

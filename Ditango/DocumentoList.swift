@@ -39,9 +39,14 @@ class DocumentoList{
         if let JSON = response.result.value{
             let docsArray = JSON as! [[String: Any]]
             
+            print(JSON)
             for i in 0..<docsArray.count {
                 let _documento = Documento()
                 _documento.nome = docsArray[i]["name"]! as! String
+                _documento.id = docsArray[i]["id"]! as! Int
+                _documento.type = docsArray[i]["type"]! as! String
+                _documento.tamanho = docsArray[i]["size"]! as! Int
+                _documento.audioDocs = docsArray[i]["audioDocs"] as! [[String: Any]]
                 _documentos.append(_documento)
             }
            

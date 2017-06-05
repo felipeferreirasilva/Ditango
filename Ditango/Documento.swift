@@ -17,7 +17,7 @@ class Documento{
     private var _dataUpload: Int = 0
     private var _tamanho: Int = 0
     private var _ativo: Bool = false
-    private var _audioDocs: [String: Any]!
+    private var _audioDocs: [[String: Any]]!
     
     var id: Int{
         get{
@@ -83,7 +83,7 @@ class Documento{
         }
     }
     
-    var audioDocs: [String: Any]{
+    var audioDocs: [[String: Any]]{
         get{
             return _audioDocs
         }set{

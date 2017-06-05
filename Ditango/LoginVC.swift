@@ -40,10 +40,9 @@ class LoginVC: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "BibliotecaVC"{
             let tabVc = segue.destination as! UITabBarController
-            let bibliotecaVc = tabVc.viewControllers?.first as! BibliotecaVC
+            let bibliotecaVc = tabVc.viewControllers?[0] as! BibliotecaVC
             bibliotecaVc.usuario = (sender as? Usuario)!
         }
-        
     }
     
     @IBAction func voltarBtnPressed(_ sender: Any) {

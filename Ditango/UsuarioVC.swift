@@ -9,7 +9,16 @@
 import UIKit
 
 class UsuarioVC: UIViewController {
-
+    private var _usuario: Usuario!
+    
+    var usuario: Usuario{
+        get{
+            return _usuario
+        }set{
+            _usuario = newValue
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
