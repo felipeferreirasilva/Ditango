@@ -254,13 +254,13 @@
                         <outlet property="msgLbl" destination="Uh9-ja-A1Y" id="So3-eq-n72"/>
                         <outlet property="passwordTxtField" destination="k8z-xm-FBy" id="HWQ-fe-b2O"/>
                         <outlet property="usernameTxtField" destination="pbQ-5d-nLh" id="56k-U6-xsl"/>
-                        <segue destination="iAI-cj-jl0" kind="show" identifier="BibliotecaVC" id="kD0-vi-mzt"/>
                         <segue destination="PA3-3O-gs3" kind="show" identifier="SenhaVC" id="8EM-fH-9xD"/>
+                        <segue destination="JGG-6M-1mm" kind="show" identifier="BibliotecaVC" id="fIO-tN-1r8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zpf-Gb-Vhs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="663.75" y="34.859154929577464"/>
+            <point key="canvasLocation" x="737" y="35"/>
         </scene>
         <!--CadastroVC-->
         <scene sceneID="7mQ-yu-pfm">
@@ -579,62 +579,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ki7-YR-Jfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="664" y="782"/>
-        </scene>
-        <!--Usuario-->
-        <scene sceneID="lpZ-Gs-Vf3">
-            <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="eQ2-TS-8oL" customClass="UsuarioVC" customModule="Ditango" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="waM-dD-2mc"/>
-                        <viewControllerLayoutGuide type="bottom" id="RqF-lh-goZ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ewV-7t-aVG">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IuI-aO-Wwv">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usuario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8L-8C-H1I">
-                                        <rect key="frame" x="121" y="29" width="79" height="28"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.91435993019999995" green="0.35140366270000001" blue="0.28277334009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="K8L-8C-H1I" firstAttribute="centerX" secondItem="IuI-aO-Wwv" secondAttribute="centerX" id="Yos-V6-dWP"/>
-                                    <constraint firstItem="K8L-8C-H1I" firstAttribute="centerY" secondItem="IuI-aO-Wwv" secondAttribute="centerY" id="lwh-1p-nHv"/>
-                                    <constraint firstAttribute="height" constant="86" id="nDD-un-Dbg"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="IuI-aO-Wwv" firstAttribute="leading" secondItem="ewV-7t-aVG" secondAttribute="leading" id="8hA-TZ-wiL"/>
-                            <constraint firstItem="IuI-aO-Wwv" firstAttribute="top" secondItem="ewV-7t-aVG" secondAttribute="top" id="VMV-9c-kcN"/>
-                            <constraint firstAttribute="trailing" secondItem="IuI-aO-Wwv" secondAttribute="trailing" id="kTJ-sE-W12"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Usuario" image="username_icon" id="cwy-xU-anF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HRb-yK-lgj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2801" y="-744"/>
+            <point key="canvasLocation" x="737" y="782"/>
         </scene>
         <!--DocumentoVC-->
         <scene sceneID="tME-hY-Oe0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kkk-27-PYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController modalTransitionStyle="crossDissolve" id="i1R-91-xOd" customClass="DocumentoVC" customModule="Ditango" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6eG-xJ-xMQ"/>
                         <viewControllerLayoutGuide type="bottom" id="QFy-0Y-HF5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="uEk-6s-4mP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="us1-C7-p64" userLabel="Titulo View">
@@ -780,18 +736,18 @@
                                 </subviews>
                             </stackView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Idy-Ft-U6q">
-                                <rect key="frame" x="0.0" y="299" width="320" height="220"/>
+                                <rect key="frame" x="0.0" y="298.5" width="320" height="269.5"/>
                                 <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AudioCell" id="3Z2-3M-AHp" customClass="AudioCell" customModule="Ditango" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Z2-3M-AHp" id="XgI-2a-Sg1">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="audio_nome" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qss-zR-thQ">
-                                                    <rect key="frame" x="21" y="12" width="257" height="21"/>
+                                                    <rect key="frame" x="21" y="11" width="257" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -841,8 +797,9 @@
                         <outlet property="tipoLbl" destination="yKS-rp-y1w" id="1u8-L9-wgZ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kkk-27-PYw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1473.75" y="33.802816901408448"/>
+            <point key="canvasLocation" x="2344" y="34"/>
         </scene>
         <!--Biblioteca-->
         <scene sceneID="bpV-pE-IMM">
@@ -853,22 +810,22 @@
                         <viewControllerLayoutGuide type="bottom" id="osA-lU-aKz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FC9-HA-ukB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Gio-fY-ZDP" customClass="Doc">
-                                <rect key="frame" x="0.0" y="91" width="320" height="428"/>
+                                <rect key="frame" x="0.0" y="91" width="320" height="477"/>
                                 <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DocumentoCell" id="1NK-ce-YNC" customClass="DocumentoCell" customModule="Ditango" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1NK-ce-YNC" id="7IQ-AC-Nnq">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nome_documento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNs-NN-YNw">
-                                                    <rect key="frame" x="21" y="10.5" width="257" height="24"/>
+                                                    <rect key="frame" x="21" y="10" width="257" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -931,120 +888,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lx-5E-0UI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1473.75" y="-745.77464788732391"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="UOw-vq-Hj6">
-            <objects>
-                <tabBarController modalTransitionStyle="crossDissolve" id="iAI-cj-jl0" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleAspectFit" translucent="NO" itemPositioning="fill" id="MGe-fw-mRm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="barTintColor" red="0.91435993019999995" green="0.35140366270000001" blue="0.28277334009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
-                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.66082512842465757" colorSpace="custom" customColorSpace="sRGB"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
-                    </tabBar>
-                    <connections>
-                        <segue destination="JGG-6M-1mm" kind="relationship" relationship="viewControllers" id="Kny-NZ-9DK"/>
-                        <segue destination="UE0-mX-oaB" kind="relationship" relationship="viewControllers" id="VIY-Ip-3dR"/>
-                        <segue destination="eQ2-TS-8oL" kind="relationship" relationship="viewControllers" id="di7-v3-Sua"/>
-                        <segue destination="Wxq-Mw-ZtA" kind="relationship" relationship="viewControllers" id="dMe-S6-3H8"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pd3-b7-sld" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1474" y="-1534"/>
-        </scene>
-        <!--Player-->
-        <scene sceneID="sm7-dF-chs">
-            <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="Wxq-Mw-ZtA" customClass="PlayerVC" customModule="Ditango" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ZUQ-7g-Pqc"/>
-                        <viewControllerLayoutGuide type="bottom" id="shZ-F2-cJB"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UlI-Wl-wTy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="txz-2E-20v">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTU-et-5lT">
-                                        <rect key="frame" x="128" y="29" width="64" height="28"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.91435993019999995" green="0.35140366270000001" blue="0.28277334009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="GEM-Op-BEu"/>
-                                    <constraint firstItem="NTU-et-5lT" firstAttribute="centerY" secondItem="txz-2E-20v" secondAttribute="centerY" id="ZUY-WY-g53"/>
-                                    <constraint firstItem="NTU-et-5lT" firstAttribute="centerX" secondItem="txz-2E-20v" secondAttribute="centerX" id="jSe-RA-Xcd"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="txz-2E-20v" firstAttribute="leading" secondItem="UlI-Wl-wTy" secondAttribute="leading" id="JtH-X3-VR2"/>
-                            <constraint firstItem="txz-2E-20v" firstAttribute="top" secondItem="UlI-Wl-wTy" secondAttribute="top" id="bck-WF-dQy"/>
-                            <constraint firstAttribute="trailing" secondItem="txz-2E-20v" secondAttribute="trailing" id="fEZ-Ux-lls"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Player" image="play_btn_pop_up" id="ace-LM-GHe"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UZh-9S-4E4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3465" y="-744"/>
-        </scene>
-        <!--Converter-->
-        <scene sceneID="MAs-jJ-nJb">
-            <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="UE0-mX-oaB" customClass="ConverteVC" customModule="Ditango" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="B97-jR-hdO"/>
-                        <viewControllerLayoutGuide type="bottom" id="zHS-Ao-Apn"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="x55-cD-ffu">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vrZ-nZ-Rpa">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Converter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFH-UQ-n1y">
-                                        <rect key="frame" x="110" y="29" width="101" height="28"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.91435993019999995" green="0.35140366270000001" blue="0.28277334009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="5gU-He-ifn"/>
-                                    <constraint firstItem="hFH-UQ-n1y" firstAttribute="centerX" secondItem="vrZ-nZ-Rpa" secondAttribute="centerX" id="EW4-B6-fhi"/>
-                                    <constraint firstItem="hFH-UQ-n1y" firstAttribute="centerY" secondItem="vrZ-nZ-Rpa" secondAttribute="centerY" id="T8O-mY-J0k"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="vrZ-nZ-Rpa" secondAttribute="trailing" id="0dw-e6-eOb"/>
-                            <constraint firstItem="vrZ-nZ-Rpa" firstAttribute="top" secondItem="x55-cD-ffu" secondAttribute="top" id="QF0-5G-dRE"/>
-                            <constraint firstItem="vrZ-nZ-Rpa" firstAttribute="leading" secondItem="x55-cD-ffu" secondAttribute="leading" id="d8r-WA-psk"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Converter" image="settings_btn" id="d6g-bx-vTz"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3bE-uU-SbA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2134" y="-744"/>
+            <point key="canvasLocation" x="1536" y="35"/>
         </scene>
     </scenes>
     <resources>
@@ -1056,8 +900,6 @@
         <image name="logo_branca" width="1167" height="455"/>
         <image name="music_library_icon" width="30" height="30"/>
         <image name="password_icon" width="16" height="20"/>
-        <image name="play_btn_pop_up" width="26" height="26"/>
-        <image name="settings_btn" width="25" height="25"/>
         <image name="username_icon" width="20" height="20"/>
         <image name="view_album_btn" width="9" height="15"/>
     </resources>

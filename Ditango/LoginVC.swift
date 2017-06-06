@@ -32,15 +32,13 @@ class LoginVC: UIViewController {
         }
     }
     
-    
     @IBAction func esqueceuSenhaBtnPressed(_ sender: Any) {
         performSegue(withIdentifier: "SenhaVC", sender: nil)
     }
         
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "BibliotecaVC"{
-            let tabVc = segue.destination as! UITabBarController
-            let bibliotecaVc = tabVc.viewControllers?[0] as! BibliotecaVC
+            let bibliotecaVc = segue.destination as! BibliotecaVC
             bibliotecaVc.usuario = (sender as? Usuario)!
         }
     }

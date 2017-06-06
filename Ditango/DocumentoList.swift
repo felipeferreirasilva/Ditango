@@ -38,8 +38,6 @@ class DocumentoList{
         let response = Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers).responseJSON()
         if let JSON = response.result.value{
             let docsArray = JSON as! [[String: Any]]
-            
-            print(JSON)
             for i in 0..<docsArray.count {
                 let _documento = Documento()
                 _documento.nome = docsArray[i]["name"]! as! String
@@ -49,11 +47,7 @@ class DocumentoList{
                 _documento.audioDocs = docsArray[i]["audioDocs"] as! [[String: Any]]
                 _documentos.append(_documento)
             }
-           
-            // ALIMENTAR OBJETO _DOCUMENTO
         }
          return _documentos
     }
-    
-    
 }

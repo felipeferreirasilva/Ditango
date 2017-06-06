@@ -46,6 +46,7 @@ class BibliotecaVC: UIViewController, UITableViewDataSource, UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let documento = documentos[indexPath.row]
         performSegue(withIdentifier: "DocumentoVC", sender: documento)
+        //goToSecond()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -54,4 +55,9 @@ class BibliotecaVC: UIViewController, UITableViewDataSource, UITableViewDelegate
             documentoVc.documento = (sender as? Documento)!
         }
     }
+    
+//    @IBAction func goToSecond() {
+//        tabBarController?.selectedIndex = 4
+//        tabBarController?.selectedViewController = Do
+//    }
 }

@@ -43,8 +43,6 @@ class DocumentoVC: UIViewController, UITableViewDataSource, UITableViewDelegate 
         dismiss(animated: true, completion: nil)
     }
     
-    
-    // PROGRAMAR RETORNO DO AUDIO
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return _documento.audioDocs.count
     }
@@ -58,4 +56,21 @@ class DocumentoVC: UIViewController, UITableViewDataSource, UITableViewDelegate 
             return UITableViewCell()
         }
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+    }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "BibliotecaVC"{
+//            let tabVc = segue.destination as! UITabBarController
+//            let bibliotecaVc = tabVc.viewControllers?[0] as! BibliotecaVC
+//            bibliotecaVc.usuario = (sender as? Usuario)!
+//        }
+//    }
+
 }
