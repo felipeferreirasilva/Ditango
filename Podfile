@@ -4,5 +4,4 @@ use_frameworks!
 
 target 'Ditango' do
     pod 'Alamofire-Synchronous', '~> 4.0'
-    pod 'SlideMenuControllerSwift', '~> 3.0'
 end
