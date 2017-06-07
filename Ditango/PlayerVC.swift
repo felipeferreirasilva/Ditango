@@ -9,7 +9,7 @@
 import UIKit
 
 class PlayerVC: UIViewController {
-    @IBOutlet weak var musicaTituloLbl: UILabel!
+    @IBOutlet weak var musicaTituloPlayerLbl: UILabel!
     
     private var _audio: [String: Any]!
     
@@ -23,7 +23,7 @@ class PlayerVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        musicaTituloLbl.text = _audio["fileName"] as? String
+        musicaTituloPlayerLbl.text = _audio["name"] as? String
     }
     
     @IBAction func voltarBtnPressed(_ sender: Any) {

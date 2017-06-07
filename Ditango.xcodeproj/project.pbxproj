@@ -16,6 +16,7 @@
 		3847B8641EE1E72400DF3E4F /* Teclado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3847B8631EE1E72400DF3E4F /* Teclado.swift */; };
 		384FA05C1EE239B5006D8804 /* DocumentoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384FA05B1EE239B5006D8804 /* DocumentoList.swift */; };
 		384FA05E1EE23C32006D8804 /* Documento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384FA05D1EE23C32006D8804 /* Documento.swift */; };
+		3850446F1EE8980800128F84 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3850446E1EE8980800128F84 /* MenuVC.swift */; };
 		38C08BA01EE70C5200CBE280 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C08B9F1EE70C5200CBE280 /* PlayerVC.swift */; };
 		38C57A2C1EE100850074A92D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A2B1EE100850074A92D /* LoginVC.swift */; };
 		38C57A2E1EE105AD0074A92D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C57A2D1EE105AD0074A92D /* Login.swift */; };
@@ -44,6 +45,7 @@
 		3847B8631EE1E72400DF3E4F /* Teclado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teclado.swift; sourceTree = "<group>"; };
 		384FA05B1EE239B5006D8804 /* DocumentoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentoList.swift; sourceTree = "<group>"; };
 		384FA05D1EE23C32006D8804 /* Documento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Documento.swift; sourceTree = "<group>"; };
+		3850446E1EE8980800128F84 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		38C08B9F1EE70C5200CBE280 /* PlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
 		38C57A2B1EE100850074A92D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		38C57A2D1EE105AD0074A92D /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				3800AD3E1EE2094D00A2B693 /* SenhaVC.swift */,
 				38F4D3A91EE595BB006AA01D /* DocumentoVC.swift */,
 				38C08B9F1EE70C5200CBE280 /* PlayerVC.swift */,
+				3850446E1EE8980800128F84 /* MenuVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				3836FE9B1EDB59E000EF2396 /* AppDelegate.swift in Sources */,
 				3847B8641EE1E72400DF3E4F /* Teclado.swift in Sources */,
 				384FA05E1EE23C32006D8804 /* Documento.swift in Sources */,
+				3850446F1EE8980800128F84 /* MenuVC.swift in Sources */,
 				38CB523D1EE1C985002EC950 /* BibliotecaVC.swift in Sources */,
 				38F4D3A81EE57DD4006AA01D /* DocumentoCell.swift in Sources */,
 				38C57A2C1EE100850074A92D /* LoginVC.swift in Sources */,

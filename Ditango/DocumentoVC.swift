@@ -9,7 +9,6 @@
 import UIKit
 
 class DocumentoVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    @IBOutlet weak var docTituloLbl: UILabel!
     @IBOutlet weak var idLbl: UILabel!
     @IBOutlet weak var nomeLbl: UILabel!
     @IBOutlet weak var tipoLbl: UILabel!
@@ -32,7 +31,6 @@ class DocumentoVC: UIViewController, UITableViewDataSource, UITableViewDelegate 
         super.viewDidLoad()
         audioTable.dataSource = self
         audioTable.delegate = self
-        docTituloLbl.text = _documento.nome
         idLbl.text = String(_documento.id)
         nomeLbl.text = _documento.nome
         tipoLbl.text = _documento.type
