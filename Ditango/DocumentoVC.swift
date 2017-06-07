@@ -62,15 +62,9 @@ class DocumentoVC: UIViewController, UITableViewDataSource, UITableViewDelegate 
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        if segue.identifier == "PlayerVC"{
+            let playerVc = segue.destination as! PlayerVC
+            playerVc.audio = sender as! [String: Any]!
+        }
     }
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "BibliotecaVC"{
-//            let tabVc = segue.destination as! UITabBarController
-//            let bibliotecaVc = tabVc.viewControllers?[0] as! BibliotecaVC
-//            bibliotecaVc.usuario = (sender as? Usuario)!
-//        }
-//    }
-
 }
