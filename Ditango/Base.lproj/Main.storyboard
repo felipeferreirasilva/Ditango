@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="17A264c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -745,16 +745,16 @@
                                 <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AudioCell" id="3Z2-3M-AHp" customClass="AudioCell" customModule="Ditango" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Z2-3M-AHp" id="XgI-2a-Sg1">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="audio_nome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qss-zR-thQ">
                                                     <rect key="frame" x="21" y="11" width="351" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.15964070429999999" green="0.15964070429999999" blue="0.15964070429999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" red="0.3394670051" green="0.3394670051" blue="0.3394670051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="view_album_btn" translatesAutoresizingMaskIntoConstraints="NO" id="PTw-Km-263">
@@ -890,16 +890,16 @@
                                 <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DocumentoCell" id="1NK-ce-YNC" customClass="DocumentoCell" customModule="Ditango" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1NK-ce-YNC" id="7IQ-AC-Nnq">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nome_documento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNs-NN-YNw">
                                                     <rect key="frame" x="21" y="10" width="351" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <color key="textColor" red="0.15964070431472077" green="0.15964070431472077" blue="0.15964070431472077" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="textColor" red="0.33946700507614214" green="0.33946700507614214" blue="0.33946700507614214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="view_album_btn" translatesAutoresizingMaskIntoConstraints="NO" id="aQo-zY-jwR">
@@ -925,7 +925,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biblioteca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0L8-DN-g9b">
-                                        <rect key="frame" x="14" y="32" width="143" height="36"/>
+                                        <rect key="frame" x="14" y="32" width="139.5" height="36"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="36" id="8Jr-zb-8V9"/>
                                         </constraints>
@@ -934,17 +934,17 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_btn" translatesAutoresizingMaskIntoConstraints="NO" id="1Y9-4U-9VS">
-                                        <rect key="frame" x="267" y="35" width="30" height="30"/>
+                                        <rect key="frame" x="272" y="38" width="25" height="25"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="9vY-7p-Zpj"/>
-                                            <constraint firstAttribute="height" constant="30" id="FmA-l9-4sI"/>
+                                            <constraint firstAttribute="width" constant="25" id="9vY-7p-Zpj"/>
+                                            <constraint firstAttribute="height" constant="25" id="FmA-l9-4sI"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.91435993019999995" green="0.35140366270000001" blue="0.28277334009999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="0L8-DN-g9b" firstAttribute="leading" secondItem="nMI-NL-z9V" secondAttribute="leading" constant="14" id="30X-c6-2QL"/>
-                                    <constraint firstItem="1Y9-4U-9VS" firstAttribute="top" secondItem="nMI-NL-z9V" secondAttribute="top" constant="35" id="INm-aV-WXr"/>
+                                    <constraint firstItem="1Y9-4U-9VS" firstAttribute="top" secondItem="nMI-NL-z9V" secondAttribute="top" constant="38" id="INm-aV-WXr"/>
                                     <constraint firstAttribute="trailing" secondItem="1Y9-4U-9VS" secondAttribute="trailing" constant="23" id="TVl-2A-KJt"/>
                                     <constraint firstItem="0L8-DN-g9b" firstAttribute="top" secondItem="nMI-NL-z9V" secondAttribute="top" constant="32" id="WrW-bX-8LO"/>
                                     <constraint firstAttribute="height" constant="86" id="hoS-s9-add"/>
@@ -972,7 +972,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8lx-5E-0UI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1526" y="16"/>
+            <point key="canvasLocation" x="1524" y="35"/>
         </scene>
     </scenes>
     <resources>
