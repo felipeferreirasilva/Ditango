@@ -63,6 +63,7 @@ class DocumentoVC: UIViewController, UITableViewDataSource, UITableViewDelegate 
         if segue.identifier == "PlayerVC"{
             let playerVc = segue.destination as! PlayerVC
             playerVc.audio = sender as! [String: Any]!
+            playerVc.token = _documento.token
         }
     }
 }

@@ -18,6 +18,7 @@ class Documento{
     private var _tamanho: Int = 0
     private var _ativo: Bool = false
     private var _audioDocs: [[String: Any]]!
+    private var _token: String!
     
     var id: Int{
         get{
@@ -88,6 +89,14 @@ class Documento{
             return _audioDocs
         }set{
             _audioDocs = newValue
+        }
+    }
+    
+    var token: String{
+        get{
+            return _token
+        }set{
+            _token = newValue
         }
     }
 }

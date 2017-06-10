@@ -27,6 +27,8 @@
 		38CB523D1EE1C985002EC950 /* BibliotecaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB523C1EE1C985002EC950 /* BibliotecaVC.swift */; };
 		38CB523F1EE1CE8F002EC950 /* ConverteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB523E1EE1CE8F002EC950 /* ConverteVC.swift */; };
 		38CB52411EE1CFA9002EC950 /* UsuarioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB52401EE1CFA9002EC950 /* UsuarioVC.swift */; };
+		38DB5BCB1EEB8A1200C3043E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB5BCA1EEB8A1200C3043E /* Player.swift */; };
+		38DB5BCD1EEB8BB000C3043E /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB5BCC1EEB8BB000C3043E /* Audio.swift */; };
 		38F4D3A81EE57DD4006AA01D /* DocumentoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4D3A71EE57DD4006AA01D /* DocumentoCell.swift */; };
 		38F4D3AA1EE595BB006AA01D /* DocumentoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4D3A91EE595BB006AA01D /* DocumentoVC.swift */; };
 		38F4D3AC1EE5BD74006AA01D /* AudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4D3AB1EE5BD74006AA01D /* AudioCell.swift */; };
@@ -56,6 +58,8 @@
 		38CB523C1EE1C985002EC950 /* BibliotecaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibliotecaVC.swift; sourceTree = "<group>"; };
 		38CB523E1EE1CE8F002EC950 /* ConverteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverteVC.swift; sourceTree = "<group>"; };
 		38CB52401EE1CFA9002EC950 /* UsuarioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioVC.swift; sourceTree = "<group>"; };
+		38DB5BCA1EEB8A1200C3043E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		38DB5BCC1EEB8BB000C3043E /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 		38F4D3A71EE57DD4006AA01D /* DocumentoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentoCell.swift; sourceTree = "<group>"; };
 		38F4D3A91EE595BB006AA01D /* DocumentoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentoVC.swift; sourceTree = "<group>"; };
 		38F4D3AB1EE5BD74006AA01D /* AudioCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCell.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				3800AD401EE20A5F00A2B693 /* Senha.swift */,
 				384FA05B1EE239B5006D8804 /* DocumentoList.swift */,
 				384FA05D1EE23C32006D8804 /* Documento.swift */,
+				38DB5BCA1EEB8A1200C3043E /* Player.swift */,
+				38DB5BCC1EEB8BB000C3043E /* Audio.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -293,8 +299,10 @@
 			files = (
 				384FA05C1EE239B5006D8804 /* DocumentoList.swift in Sources */,
 				3800AD3F1EE2094D00A2B693 /* SenhaVC.swift in Sources */,
+				38DB5BCD1EEB8BB000C3043E /* Audio.swift in Sources */,
 				38C57A371EE17F580074A92D /* Cadastro.swift in Sources */,
 				3836FE9D1EDB59E000EF2396 /* MainVC.swift in Sources */,
+				38DB5BCB1EEB8A1200C3043E /* Player.swift in Sources */,
 				38C57A321EE122300074A92D /* CadastroVC.swift in Sources */,
 				3800AD411EE20A5F00A2B693 /* Senha.swift in Sources */,
 				3836FE9B1EDB59E000EF2396 /* AppDelegate.swift in Sources */,

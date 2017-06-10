@@ -862,20 +862,20 @@
                                 <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AudioCell" id="3Z2-3M-AHp" customClass="AudioCell" customModule="Ditango" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3Z2-3M-AHp" id="XgI-2a-Sg1">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="audio_nome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qss-zR-thQ">
-                                                    <rect key="frame" x="21" y="11" width="351" height="21"/>
+                                                    <rect key="frame" x="21" y="11" width="257" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.3394670051" green="0.3394670051" blue="0.3394670051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="view_album_btn" translatesAutoresizingMaskIntoConstraints="NO" id="PTw-Km-263">
-                                                    <rect key="frame" x="383" y="14" width="9" height="15"/>
+                                                    <rect key="frame" x="289" y="14" width="9" height="15"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1144,6 +1144,9 @@
                                     <constraint firstAttribute="height" constant="64" id="RS0-fG-EJV"/>
                                 </constraints>
                                 <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="playBtnPressed:" destination="aRj-UT-eXt" eventType="touchUpInside" id="Aa2-Et-vfH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTL-D9-AEc">
                                 <rect key="frame" x="210" y="173" width="34" height="34"/>
@@ -1218,6 +1221,11 @@
                             <constraint firstItem="0Nv-Ru-ehd" firstAttribute="leading" secondItem="LT6-wm-ji4" secondAttribute="trailing" constant="13" id="tXL-4S-j4w"/>
                             <constraint firstItem="hIn-Lh-3o7" firstAttribute="leading" secondItem="rrE-L3-K2l" secondAttribute="trailing" constant="18.5" id="v5J-eX-BTk"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="hIn-Lh-3o7"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="musicaTituloPlayerLbl" destination="2Sn-dF-B4k" id="YVO-8K-MxA"/>
@@ -1244,20 +1252,20 @@
                                 <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DocumentoCell" id="1NK-ce-YNC" customClass="DocumentoCell" customModule="Ditango" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1NK-ce-YNC" id="7IQ-AC-Nnq">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nome_documento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNs-NN-YNw">
-                                                    <rect key="frame" x="21" y="10" width="351" height="24"/>
+                                                    <rect key="frame" x="21" y="10" width="257" height="24"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <color key="textColor" red="0.33946700507614214" green="0.33946700507614214" blue="0.33946700507614214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="view_album_btn" translatesAutoresizingMaskIntoConstraints="NO" id="aQo-zY-jwR">
-                                                    <rect key="frame" x="383" y="14" width="9" height="15"/>
+                                                    <rect key="frame" x="289" y="14" width="9" height="15"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" red="0.98197572970000002" green="0.98197572970000002" blue="0.98197572970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

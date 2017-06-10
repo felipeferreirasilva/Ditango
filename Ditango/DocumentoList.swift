@@ -45,9 +45,10 @@ class DocumentoList{
                 _documento.type = docsArray[i]["type"]! as! String
                 _documento.tamanho = docsArray[i]["size"]! as! Int
                 _documento.audioDocs = docsArray[i]["audioDocs"] as! [[String: Any]]
+                _documento.token = token
                 _documentos.append(_documento)
             }
         }
-         return _documentos
+     return _documentos
     }
 }
